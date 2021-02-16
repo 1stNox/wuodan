@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Login\**" />
+    <EmbeddedResource Remove="Login\**" />
+    <None Remove="Login\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AltV.Net" Version="1.48.2" />
+    <PackageReference Include="AltV.Net.Async" Version="1.48.1" />
+  </ItemGroup>
+
+</Project>
